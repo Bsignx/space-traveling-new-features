@@ -1,1 +1,21 @@
-// TODO
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.detailwithIconWrapper {
+  display: flex;
+  align-items: center;
+
+  & + div {
+    margin-left: 30px;
+  }
+
+  > svg {
+    margin-right: 8px;
+  }
+
+  > time {
+    text-transform: capitalize;
+  }
+ }

@@ -1,1 +1,43 @@
-// TODO
+.postWrapper {
+  display: block;
+  & + a {
+    margin-top: 50px;
+  }
+
+
+  &:hover {
+    filter: brightness(0.8)
+  }
+
+  .postTitle {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.5px;
+  }
+
+  .postSubtitle {
+    margin: 8px 0 25px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D7D7D7;
+  }
+
+  .detailsWrapper {
+    display: flex;
+  }
+}
+
+.loadMorePostsParagraph {
+  font-weight: 600;
+  font-size: 18px;
+  color: #FF57B2;
+  margin-top: 66px;
+  margin-bottom: 80px;
+
+
+  &:hover {
+    filter: brightness(0.8)
+  }
+}
